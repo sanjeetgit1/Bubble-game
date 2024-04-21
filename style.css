@@ -121,7 +121,7 @@ body {
 
     #panel {
         width: 80%;
-        height: 80%;
+        height: 85%;
         background-color: rgb(255, 255, 255);
         border-radius: 10px;
         overflow: hidden;
@@ -427,7 +427,7 @@ body {
 
     #panel {
         width: 80%;
-        height: 82%;
+        height: 7%;
         background-color: rgb(255, 255, 255);
         border-radius: 10px;
         overflow: hidden;

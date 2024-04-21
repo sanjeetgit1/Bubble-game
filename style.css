@@ -1,85 +1,96 @@
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-html,body{
+
+html,
+body {
     width: 100%;
     height: 100%;
 }
-#main{
+
+#main {
     height: 100%;
     width: 100%;
-     display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     background-color: rgb(129, 218, 213);
 }
-#panel{
+
+#panel {
     width: 80%;
     height: 80%;
-    background-color:rgb(255, 255, 255) ;
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
-overflow: hidden;
-}
-#ptop{
-    width: 100%;
-    height: 80px;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   gap: 3vw;
-      background-color: rgb(76, 130, 139);
-      
+    overflow: hidden;
 }
 
-.elem{
-   
-  gap: 1vw;
+#ptop {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+    background-color: rgb(76, 130, 139);
+
+}
+
+.elem {
+
+    gap: 1vw;
     display: flex;
     align-items: center;
     justify-content: center;
 
-   
+
 }
-.box{
+
+.box {
     width: 30px;
     height: 30px;
     background-color: rgb(255, 255, 255);
     border-radius: 4px;
-    display: flex ;
+    display: flex;
     align-items: center;
     justify-content: center;
-  font-size: 1.2vw;
+    font-size: 1.2vw;
     font-weight: 900;
     color: #4C828B;
 }
-.elem h4{
- font-family: "montserrat";
- color:#fff;
-    
+
+.elem h4 {
+    font-family: "montserrat";
+    color: #fff;
+
 }
-#pbtn{
+
+#pbtn {
     width: 100%;
     height: calc(100% - 80px);
-      padding: 10px ;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-     
-      gap: 1vw;
-   flex-wrap: wrap;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 1vw;
+    flex-wrap: wrap;
 }
-#pbtn h1{
+
+#pbtn h1 {
     font-family: "montserrat";
-     font-size: 10vw;
-      font-weight: 800;
-      cursor: pointer;
+    font-size: 10vw;
+    font-weight: 800;
+    cursor: pointer;
 }
-#pbtn h1:hover{
+
+#pbtn h1:hover {
     color: rgb(209, 76, 76);
 }
-.bubble{
+
+.bubble {
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -90,9 +101,418 @@ overflow: hidden;
     color: #cccccc;
     font-size: 1.4vw;
     font-weight: 500;
-  
+
 }
-.bubble:hover{
+
+.bubble:hover {
     cursor: pointer;
     background-color: #446065;
 }
+
+@media screen and (max-width: 599px) {
+    #main {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(129, 218, 213);
+    }
+
+    #panel {
+        width: 80%;
+        height: 80%;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    #ptop {
+        width: 100%;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3vw;
+        background-color: rgb(76, 130, 139);
+
+    }
+
+    .elem {
+
+        gap: 1vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+
+    .box {
+        width: 30px;
+        height: 30px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 4.2vw;
+        font-weight: 900;
+        color: #4C828B;
+    }
+
+    .elem h4 {
+        font-family: "montserrat";
+        color: #fff;
+
+    }
+
+    #pbtn {
+        width: 100%;
+        height: calc(100% - 80px);
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        gap: 1vw;
+        flex-wrap: wrap;
+    }
+
+    #pbtn h1 {
+        font-family: "montserrat";
+        font-size: 10vw;
+        font-weight: 800;
+        cursor: pointer;
+    }
+
+    #pbtn h1:hover {
+        color: rgb(209, 76, 76);
+    }
+
+    .bubble {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: #4C828B;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #cccccc;
+        font-size: 4.4vw;
+        font-weight: 500;
+
+    }
+
+    .bubble:hover {
+        cursor: pointer;
+        background-color: #446065;
+    }
+
+
+}
+@media screen and (min-width: 600px){
+    #main {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(129, 218, 213);
+    }
+
+    #panel {
+        width: 80%;
+        height: 80%;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    #ptop {
+        width: 100%;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3vw;
+        background-color: rgb(76, 130, 139);
+
+    }
+
+    .elem {
+
+        gap: 1vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+
+    .box {
+        width: 40px;
+        height: 40px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2.2vw;
+        font-weight: 900;
+        color: #4C828B;
+    }
+
+    .elem h4 {
+        font-family: "montserrat";
+        color: #fff;
+
+    }
+
+    #pbtn {
+        width: 100%;
+        height: calc(100% - 80px);
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        gap: 1vw;
+        flex-wrap: wrap;
+    }
+
+    #pbtn h1 {
+        font-family: "montserrat";
+        font-size: 10vw;
+        font-weight: 800;
+        cursor: pointer;
+    }
+
+    #pbtn h1:hover {
+        color: rgb(209, 76, 76);
+    }
+
+    .bubble {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: #4C828B;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #cccccc;
+        font-size: 2vw;
+        font-weight: 500;
+
+    }
+
+    .bubble:hover {
+        cursor: pointer;
+        background-color: #446065;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    #main {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(129, 218, 213);
+    }
+
+    #panel {
+        width: 80%;
+        height: 82%;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    #ptop {
+        width: 100%;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3vw;
+        background-color: rgb(76, 130, 139);
+
+    }
+
+    .elem {
+
+        gap: 1vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+
+    .box {
+        width: 40px;
+        height: 40px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 3.2vw;
+        font-weight: 900;
+        color: #4C828B;
+    }
+
+    .elem h4 {
+        font-family: "montserrat";
+        color: #fff;
+
+    }
+
+    #pbtn {
+        width: 100%;
+        height: calc(100% - 80px);
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        gap: 1vw;
+        flex-wrap: wrap;
+    }
+
+    #pbtn h1 {
+        font-family: "montserrat";
+        font-size: 10vw;
+        font-weight: 800;
+        cursor: pointer;
+    }
+
+    #pbtn h1:hover {
+        color: rgb(209, 76, 76);
+    }
+
+    .bubble {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: #4C828B;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #cccccc;
+        font-size: 4vw;
+        font-weight: 500;
+
+    }
+
+    .bubble:hover {
+        cursor: pointer;
+        background-color: #446065;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px)  and  (orientation: landscape){
+
+    #main {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(129, 218, 213);
+    }
+
+    #panel {
+        width: 80%;
+        height: 82%;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    #ptop {
+        width: 100%;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3vw;
+        background-color: rgb(76, 130, 139);
+
+    }
+
+    .elem {
+
+        gap: 1vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+
+    .box {
+        width: 40px;
+        height: 40px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 3.2vw;
+        font-weight: 900;
+        color: #4C828B;
+    }
+
+    .elem h4 {
+        font-family: "montserrat";
+        color: #fff;
+
+    }
+
+    #pbtn {
+        width: 100%;
+        height: calc(100% - 80px);
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        gap: 1vw;
+        flex-wrap: wrap;
+    }
+
+    #pbtn h1 {
+        font-family: "montserrat";
+        font-size: 10vw;
+        font-weight: 800;
+        cursor: pointer;
+    }
+
+    #pbtn h1:hover {
+        color: rgb(209, 76, 76);
+    }
+
+    .bubble {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: #4C828B;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #cccccc;
+        font-size: 4vw;
+        font-weight: 500;
+
+    }
+
+    .bubble:hover {
+        cursor: pointer;
+        background-color: #446065;
+    }
+}
+
